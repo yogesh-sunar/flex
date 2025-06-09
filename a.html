@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div
+      class="flex flex-col md:flex-row justify-between px-10 items-center bg-blue-500 py-6"
+    >
+      <img
+        class="w-[60px] h-[60px] rounded-full"
+        src="https://images.unsplash.com/photo-1749225595496-06cd2c49fa2b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4fHx8ZW58MHx8fHx8"
+        alt="logo"
+      />
+
+      <ul class="flex flex-col md:flex-row gap-6">
+        <li
+          class="hover:cursor-pointer hover:text-white hover:scale-105 transition-transform duration-300 mt-6 md:mt-0"
+        >
+          About
+        </li>
+        <li class="hover:cursor-pointer hover:text-white text-center">Home</li>
+        <li class="hover:cursor-pointer hover:text-white">Contact</li>
+      </ul>
+    </div>
+
+    <div class="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-blue-500 col-span-3">grid1</div>
+      <div class="bg-red-500 row-span-10 grid place-items-center">
+        <h2>hello</h2>
+        <img src="" alt="jhgfd" />
+      </div>
+      <div class="bg-orange-500 text-md md:text-2xl p-10">
+        grid3 ssjjs ahsjasjs kjhaghjksjhdxnb Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Nostrum ad expedita dicta nam, totam
+        dignissimos inventore consequuntur hic maxime voluptas dolorem soluta
+        temporibus distinctio natus repellendus laudantium nobis vitae iure.
+      </div>
+      <div class="bg-yellow-500">grid4</div>
+      <div class="bg-green-500">grid5</div>
+      <div class="bg-blue-500">grid6</div>
+      <div class="bg-blue-500">grid6</div>
+      <div class="bg-blue-500">grid6</div>
+    </div>
+  </body>
+</html>
